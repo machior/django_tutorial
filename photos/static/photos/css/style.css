@@ -1,0 +1,49 @@
+body{
+    background: white url("../images/background.jpg");
+    padding: 0 50px 50px;
+}
+
+.presentation{
+    height: 300px;
+    position: relative;
+}
+
+.presentation h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.images-row{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-div{
+    margin-top: 10px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-div > div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.image-div img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-div img:hover{
+
+}
